@@ -47,3 +47,6 @@ pub use emoji_modifier_base::{is_emoji_modifier_base, EmojiModifierBase};
 
 mod emoji_presentation;
 pub use emoji_presentation::{is_emoji_presentation, EmojiPresentation};
+
+mod extended_pictographic;
+pub use extended_pictographic::{is_extended_pictographic, ExtendedPictographic};
